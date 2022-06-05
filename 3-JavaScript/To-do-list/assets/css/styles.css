@@ -1,0 +1,36 @@
+@import url("https://fonts.googleapis.com/css2?family=Amatic+SC&family=Montserrat:wght@200&display=swap");
+
+body {
+  background-color: darkcyan;
+  /* font-family: "Amatic SC", cursive; */
+  font-family: "Montserrat", sans-serif;
+}
+
+.header {
+  color: white
+}
+
+.task-wrapper {
+  display: flex;
+  justify-content: baseline;
+  align-items: center;
+  position: relative;
+}
+
+.task-checkbox:checked + .task {
+  text-decoration: line-through;
+  font-weight: lighter;
+}
+
+.task {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: white;
+  margin-left: 1rem;
+  margin-right: 1rem;
+}
+
+.input {
+  border: 2px solid rgb(1, 1, 65);
+  border-radius: 5px;
+}
