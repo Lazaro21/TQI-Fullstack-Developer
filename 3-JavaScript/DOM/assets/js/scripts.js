@@ -13,7 +13,7 @@ button.addEventListener("click", () => {
   // console.log(h1)
   footer.classList.toggle("dark-mode");
   button.classList.toggle('dark-mode');
-  // console.log(button.classList);
+  console.log(button.classList);
   button.innerHTML = button.classList.contains('dark-mode') ? 'Light Mode' : 'Dark Mode';
   h1.innerHTML = body.classList.contains('dark-mode') ? 'Dark Mode On': 'Light Mode On'
 
